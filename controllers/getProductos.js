@@ -39,4 +39,5 @@ const getProductosById = (req = request , res = response)=> {
 module.exports = {
     getProductos,
     getProductosById
+    
 }
