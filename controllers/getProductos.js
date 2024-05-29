@@ -1,11 +1,5 @@
 const { request, response } = require("express");
-module.exports = {
-    getProductos,
-    getProductosById
-    
-}
-
-const { productos } = require("../productos");
+const { productos } = require("../productos.js");
 
 const getProductos = (req, res) => {
     res.json(productos);
