@@ -1,43 +1,27 @@
 const { request, response } = require("express");
-const { productos } = require("../productos")
-
-const getProductos = (req = request, res = response )=> {
-
-    res.json({
-        status:true,
-        productos,
-        statusCode:200
-
-    });
-}
-
-const getProductosById = (req = request , res = response)=> {
-
-    let id = req.params.id;
-
-    let productoS= "";
-
-    productoS = productos.find((producto)=> {
-        return producto.id === id;
-    });
-    if(productoS){
-        return res.json({
-            ok:true,
-            robotS,
-            statusCode:200
-        });
-    }else{
-        return res.json({
-            ok:false,
-            msg:"No hay un comic con ese id",
-            statusCode:404
-        });
-    }
-
-}
-
 module.exports = {
     getProductos,
     getProductosById
     
 }
+
+const { productos } = require("../productos");
+
+const getProductos = (req, res) => {
+    res.json(productos);
+};
+
+const getProductosById = (req, res) => {
+    const id = req.params.id;
+    const producto = productos.find(p => p.id === id);
+    if (producto) {
+        res.json(producto);
+    } else {
+        res.status(404).send("Producto no encontrado");
+    }
+};
+
+module.exports = {
+    getProductos,
+    getProductosById
+};
