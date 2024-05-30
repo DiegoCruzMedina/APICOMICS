@@ -77,7 +77,7 @@ const productos = [
         "tipo":"manga",        
         "comentario": "Arco de El Incidente de Shibuya (渋谷事変 Shibuya Jihen?) es el nombre del noveno arco argumental de la serie manga Jujutsu Kaisen. A las 7:00 PM del 31 de octubre de 2018, aparece una extraña Pantalla cubriendo todo el Distrito de Shibuya, la cuál permite que los civiles y chamanes entren pero no puedan salir. Los habitantes encerrados dentro de la pantalla piden por la aparición de Satoru Gojo, ya que su aparición es la única condición que necesitan para salir.",
         "editorial":"Jump Comics",
-        "imagen":"./assets/img/kaisen.jpg",
+        "imagen":"https://i.postimg.cc/t48wM5WS/kaisen.jpg",
         "autor":"Gege Akatsumi",
         "fecha":"15 de Noviembre del 2020",
         "paginas":"35",
