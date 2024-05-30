@@ -252,7 +252,7 @@ const productos = [
         "precio": "18.990",
         "tipo": "manga",
         "comentario": "La historia se desarrolla en un mundo ficticio en el que la humanidad está al borde de la extinción a causa de unas criaturas humanoides llamadas «titanes», lo que obliga a los supervivientes a refugiarse en tres enormes murallas que impiden el acceso a dichos monstruos.",
-        "imagen": "https://i.postimg.cc/FK11wnY8/kimetsu.jpg",
+        "imagen": "https://i.postimg.cc/KYV4brLz/titan.jpg",
         "autor":"Hajime Isayama",
         "fecha":"17 de Agosto del 2016",
         "paginas":"50",
