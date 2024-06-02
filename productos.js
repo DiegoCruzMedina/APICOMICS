@@ -11,6 +11,7 @@ const productos = [
         "fecha":"23 de Noviembre del 2011",
         "paginas":"87",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 10,
 
         "formato":"Tapa dura",
     },
@@ -26,6 +27,7 @@ const productos = [
         "fecha":"19 de Septiembre del 2014",
         "paginas":"95",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 15,
         "formato":"Tapa dura",
     },
     {   "series": 2, 
@@ -40,6 +42,7 @@ const productos = [
         "fecha":"28 de Noviembre del 2006 ",
         "paginas":"96",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 18,
         "formato":"Tapa dura",
     },
     {   "series": 2, 
@@ -54,6 +57,7 @@ const productos = [
         "fecha":"26 de Octubre del 2011",
         "paginas":"157",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 19,
         "formato":"Tapa dura",
     },
     {   "series": 3, 
@@ -68,6 +72,7 @@ const productos = [
         "fecha":"22 de Octumbre de 2021",
         "paginas":"35",
         "tamaño":"11,5 x 17,1 cm",
+        "cantidad": 20,
         "formato":"Tapa blanda",
     },
     {   "series": 3, 
@@ -82,6 +87,7 @@ const productos = [
         "fecha":"15 de Noviembre del 2020",
         "paginas":"35",
         "tamaño":"11,5 x 17,1 cm",
+        "cantidad": 20,
         "formato":"Tapa blanda",
     },
     {   "series": 2, 
@@ -96,6 +102,7 @@ const productos = [
         "fecha":"4 de Marzo del 2009",
         "paginas":"87",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 20,
         "formato":"Tapa dura",
     },
     {   "series": 2, 
@@ -110,6 +117,7 @@ const productos = [
         "fecha":"24 de Febrero del 2004",
         "paginas":"98",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 20,
         "formato":"Tapa dura",
     },
     {   "series": 2, 
@@ -124,6 +132,7 @@ const productos = [
         "fecha":"8 de Julio del 2003",
         "paginas":"78",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 20,
         "formato":"Tapa dura",
     },
     {
@@ -139,6 +148,7 @@ const productos = [
         "fecha":"3 de Marzo del 1998",
         "paginas":"35",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 20,
         "formato":"Tapa blanda",
     },
     {
@@ -154,6 +164,7 @@ const productos = [
         "fecha":"9 de Marzo del 2009",
         "paginas":"106",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 20,
         "formato":"Tapa dura",
     },
     {
@@ -169,6 +180,7 @@ const productos = [
         "fecha":"3 de Marzo del 2003",
         "paginas":"203",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 20,
         "formato":"Tapa dura",
     },
     {
@@ -184,6 +196,7 @@ const productos = [
         "fecha":"20 de Septiembre del 2017",
         "paginas":"50",
         "tamaño":"11,5 x 17,1 cm",
+        "cantidad": 20,
         "formato":"Tapa blanda",
     },
     {
@@ -199,6 +212,7 @@ const productos = [
         "fecha":"14 de Mayo del 2018",
         "paginas":"107",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 20,
         "formato":"Tapa dura",
     },
     {
@@ -214,6 +228,7 @@ const productos = [
         "fecha":"18 de Abril del 2017",
         "paginas":"120",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 20,
         "formato":"Tapa dura",
     },
     {
@@ -228,6 +243,7 @@ const productos = [
         "fecha":"17 de Agosto del 2018",
         "paginas":"50",
         "tamaño":"11,5 x 17,1 cm",
+        "cantidad": 20,
         "formato":"Tapa blanda",
     },
     {
@@ -243,6 +259,7 @@ const productos = [
         "fecha":"18 de Noviembre del 2007",
         "paginas":"178",
         "tamaño":"16.8 x 25,8 cm",
+        "cantidad": 20,
         "formato":"Tapa dura",
     },
     {
@@ -258,6 +275,7 @@ const productos = [
         "fecha":"17 de Agosto del 2016",
         "paginas":"50",
         "tamaño":"11,5 x 17,1 cm",
+        "cantidad": 20,
         "formato":"Tapa blanda",
     },
     
